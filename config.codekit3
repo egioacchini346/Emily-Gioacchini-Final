@@ -56,7 +56,7 @@
       "oAP" : "\/design\/structure-tags.sketch",
       "oF" : 0
     },
-    "\/dev\/content\/about-the-show.kit" : {
+    "\/dev\/content\/section-1.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
@@ -64,7 +64,15 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 3
     },
-    "\/dev\/content\/cast-&-creative-team.kit" : {
+    "\/dev\/content\/section-2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/section-2.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/section-3.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
@@ -72,44 +80,36 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 3
     },
-    "\/dev\/content\/pin-the-map.kit" : {
+    "\/dev\/content\/section-4.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/pin-the-map.html",
+      "oAP" : "\/dev\/content\/section-4.html",
       "oF" : 1
     },
-    "\/dev\/content\/productions.kit" : {
+    "\/dev\/content\/section-5.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/productions.html",
+      "oAP" : "\/dev\/content\/section-5.html",
       "oF" : 1
     },
-    "\/dev\/content\/tell-your-story.kit" : {
+    "\/dev\/content\/section-6.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/tell-your-story.html",
+      "oAP" : "\/dev\/content\/section-6.html",
       "oF" : 1
     },
-    "\/dev\/content\/the-true-story.kit" : {
+    "\/dev\/content\/section-7.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/the-true-story.html",
-      "oF" : 1
-    },
-    "\/dev\/content\/tour-schedule.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/tour-schedule.html",
+      "oAP" : "\/dev\/content\/section-7.html",
       "oF" : 1
     },
     "\/dev\/global\/footer.kit" : {
