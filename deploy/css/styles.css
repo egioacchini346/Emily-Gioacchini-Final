@@ -404,20 +404,7 @@ p {
     Buttons
 ============= */
 button {
-  cursor: pointer;
-}
-
-.yellow-button {
-  background-color: #FFD205;
-  border: none;
-  font-size: 1rem;
-  font-weight: 600;
-  padding: 10px;
-  transition: 0.25s;
-}
-.yellow-button:hover {
-  background-color: #000;
-  color: #fff;
+  align-content: center;
 }
 
 /* =============
@@ -450,7 +437,6 @@ a {
     Header
 ============= */
 header {
-  background-color: #2A3036;
   display: grid;
 }
 @media (min-width: 1200px) {
@@ -485,8 +471,7 @@ header > div section img {
     Footer
 ============= */
 footer {
-  background-color: #2A3036;
-  color: #C8C7BC;
+  background-color: #001f3d;
   padding: 16px;
 }
 @media (min-width: 1200px) {
@@ -531,7 +516,7 @@ footer > div section h2 {
   padding-bottom: 8px;
 }
 footer > div section ul {
-  border-bottom: 1px solid #C8C7BC;
+  border-bottom: 1px solid #001f3d;
   padding-bottom: 16px;
 }
 footer > div section ul li {
@@ -543,95 +528,131 @@ footer > div section ul li div {
   display: flex;
   margin-right: 16px;
 }
-@media (min-width: 768px) {
-  footer > div #locations {
-    grid-area: locations;
-  }
+
+/* =============
+    section-4
+============= */
+#section-4 {
+  padding-bottom: 10px;
 }
-footer > div #locations i {
-  color: #FFD205;
-}
-footer > div #locations a:link,
-footer > div #locations a:visited {
-  color: #C8C7BC;
-}
-@media (min-width: 768px) {
-  footer > div #locations #nova {
-    border: none;
-  }
-}
-@media (min-width: 768px) {
-  footer > div #newsletter {
-    grid-area: newsletter;
-  }
-}
-footer > div #newsletter form input {
-  background-color: #ADB5BD;
-  border: none;
-  color: #2A3036;
-  padding: 16px 2%;
-  width: 96%;
-}
-footer > div #newsletter form input::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #2A3036;
-  /* Firefox */
-  opacity: 1;
-}
-footer > div #newsletter form input:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #2A3036;
-}
-footer > div #newsletter form input::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: #2A3036;
-}
-footer > div #newsletter form button {
-  display: flex;
-  margin-left: auto;
-  margin-top: 16px;
-}
-@media (min-width: 768px) {
-  footer > div #social {
-    grid-area: social;
-    margin-top: -100px;
-  }
-}
-@media (min-width: 1024px) {
-  footer > div #social {
-    margin-top: 0px;
-  }
-}
-@media (min-width: 1024px) {
-  footer > div #social h1 {
-    text-align: right;
-  }
-}
-footer > div #social ul {
-  border: none;
-  display: flex;
-}
-@media (min-width: 1024px) {
-  footer > div #social ul {
-    justify-content: flex-end;
-  }
-}
-footer > div #social ul li {
-  margin-right: 16px;
-}
-@media (min-width: 1024px) {
-  footer > div #social ul li {
-    margin-left: 16px;
-    margin-right: 0px;
-  }
-}
-footer > div #social ul li a:link,
-footer > div #social ul li a:visited {
+#section-4 h2 {
+  font-family: "Amaranth", Helvetica, serif;
+  font-style: bold;
+  font-size: 27px;
   color: #fff;
-  font-size: 1.875rem;
+  text-align: center;
 }
-footer > div #social ul li a:link:hover, footer > div #social ul li a:link:active,
-footer > div #social ul li a:visited:hover,
-footer > div #social ul li a:visited:active {
-  color: #FFD205;
+#section-4 p {
+  font-family: "Titillium Web", Arial, serif;
+  font-style: thin;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+#section-4 button {
+  text-align: center;
+}
+#section-4 ul li {
+  margin-bottom: 16px;
+}
+@media (min-width: 768px) {
+  #section-4 {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". section-4 .";
+  }
+  #section-4 h2 {
+    font-family: "Amaranth", Helvetica, serif;
+    font-style: bold;
+    font-size: 27px;
+    color: #fff;
+    text-align: center;
+  }
+  #section-4 p {
+    font-family: "Titillium Web", Arial, serif;
+    font-style: thin;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  #section-4 {
+    grid-template-columns: auto 1200px auto;
+  }
+  #section-4 h2 {
+    font-family: "Amaranth", Helvetica, serif;
+    font-style: bold;
+    font-size: 27px;
+    color: #fff;
+    text-align: center;
+  }
+  #section-4 p {
+    font-family: "Titillium Web", Arial, serif;
+    font-style: thin;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  #section-4 > div {
+    grid-area: section-4;
+  }
+}
+@media (min-width: 768px) {
+  #section-4 > div ul #s1 {
+    grid-area: s1;
+  }
+}
+@media (min-width: 768px) {
+  #section-4 > div ul #s2 {
+    grid-area: s2;
+  }
+}
+@media (min-width: 768px) {
+  #section-4 > div ul #s3 {
+    grid-area: s3;
+  }
+}
+@media (min-width: 768px) {
+  #section-4 > div ul #s4 {
+    grid-area: s4;
+  }
+}
+@media (min-width: 768px) {
+  #section-4 > div ul #s5 {
+    grid-area: s5;
+  }
+}
+@media (min-width: 768px) {
+  #section-4 > div ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "s1 s1 s2 s2" "s3 s3 s4 s4" ". s5 s5 .";
+    gap: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  #section-4 > div ul {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "s1 s1  s2 s2 s3 s3" ". s4 s4 s5 s5 .";
+  }
+}
+#section-4 > div ul li {
+  background-color: #001f3d;
+}
+#section-4 > div ul li img {
+  width: 100%;
+}
+#section-4 > div ul li section {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". section-4-content .";
+}
+#section-4 > div ul li section > div {
+  grid-area: section-4-content;
+}
+#section-4 > div ul li section > div button {
+  background-color: #fff;
 }

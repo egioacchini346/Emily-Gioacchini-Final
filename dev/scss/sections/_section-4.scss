@@ -1,15 +1,14 @@
 /* =============
-    productions
+    section-4
 ============= */
-#productions {
-
+#section-4 {
     padding-bottom: 10px;
 
     h2 {
         font-family: "Amaranth", Helvetica, serif;
         font-style: bold;
         font-size: 27px;
-        color: #000;
+        color: #fff;
         text-align: center;
     }
 
@@ -17,12 +16,16 @@
         font-family: "Titillium Web", Arial, serif;
         font-style: thin;
         font-size: 16px;
-        color: #000;
-        text-align: left;
+        color: #fff;
+        text-align: center;
     }
 
-    ul{
-        li{
+    button {
+        text-align: center;
+    }
+
+    ul {
+        li {
             margin-bottom: 16px;
         }
     }
@@ -36,7 +39,7 @@
             font-family: "Amaranth", Helvetica, serif;
             font-style: bold;
             font-size: 27px;
-            color: #000;
+            color: #fff;
             text-align: center;
         }
 
@@ -44,8 +47,8 @@
             font-family: "Titillium Web", Arial, serif;
             font-style: thin;
             font-size: 16px;
-            color: #000;
-            text-align: left;
+            color: #fff;
+            text-align: center;
         }
 
     }
@@ -57,7 +60,7 @@
             font-family: "Amaranth", Helvetica, serif;
             font-style: bold;
             font-size: 27px;
-            color: #000;
+            color: #fff;
             text-align: center;
         }
 
@@ -65,8 +68,8 @@
             font-family: "Titillium Web", Arial, serif;
             font-style: thin;
             font-size: 16px;
-            color: #000;
-            text-align: left;
+            color: #fff;
+            text-align: center;
         }
     }
 
@@ -128,7 +131,7 @@
             }
 
             li {
-                background-color: $mintgreen;
+                background-color: $darkblue;
 
                 img {
                     width: 100%;
@@ -143,7 +146,7 @@
                         grid-area: section-4-content;
 
                         button {
-                            background-color: $pink;
+                            background-color: #fff;
                         }
                     }
                 }

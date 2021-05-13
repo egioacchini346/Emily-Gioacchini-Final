@@ -2,8 +2,7 @@
     Footer
 ============= */
 footer {
-	background-color: $nightDark;
-	color: $alpineFrostDark;
+	background-color: $darkblue;
 	padding: 16px;
 
 	@include xl {
@@ -47,7 +46,7 @@ footer {
 			}
 
 			ul {
-				border-bottom: 1px solid $alpineFrostDark;
+				border-bottom: 1px solid $darkblue;
 				padding-bottom: 16px;
 
 				li {
@@ -63,113 +62,6 @@ footer {
 			}
 		}
 
-		#locations {
-			@include md {
-				grid-area: locations;
-			}
 
-			i {
-				color: $electricYellow;
-			}
-
-			a:link,
-			a:visited {
-				color: $alpineFrostDark;
-
-				&:hover,
-				&:active {}
-			}
-
-			#nova {
-				@include md {
-					border: none;
-				}
-			}
-		}
-
-		#newsletter {
-			@include md {
-				grid-area: newsletter;
-			}
-
-			form {
-				input {
-					background-color: $brightStarDark;
-					border: none;
-					color: $nightDark;
-					padding: 16px 2%;
-					width: 96%;
-
-					&::placeholder {
-						/* Chrome, Firefox, Opera, Safari 10.1+ */
-						color: $nightDark;
-						/* Firefox */
-						opacity: 1;
-					}
-
-					&:-ms-input-placeholder {
-						/* Internet Explorer 10-11 */
-						color: $nightDark;
-					}
-
-					&::-ms-input-placeholder {
-						/* Microsoft Edge */
-						color: $nightDark;
-					}
-				}
-
-				button {
-					display: flex;
-					margin-left: auto;
-					margin-top: 16px;
-				}
-			}
-		}
-
-		#social {
-			@include md {
-				grid-area: social;
-				margin-top: -100px;
-			}
-
-			@include lg {
-				margin-top: 0px;
-			}
-
-			h1 {
-				@include lg {
-					text-align: right;
-				}
-			}
-
-			ul {
-				border: none;
-				display: flex;
-
-				@include lg {
-					justify-content: flex-end;
-				}
-
-				li {
-					margin-right: 16px;
-
-					@include lg {
-						margin-left: 16px;
-						margin-right: 0px;
-					}
-
-					a:link,
-					a:visited {
-						color: $white;
-						font-size: rem-calc(30);
-
-						&:hover,
-						&:active {
-							color: $electricYellow;
-						}
-					}
-				}
-			}
-		}
 	}
 }
