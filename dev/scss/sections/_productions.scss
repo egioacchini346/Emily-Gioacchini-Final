@@ -1,0 +1,153 @@
+/* =============
+    productions
+============= */
+#productions {
+
+    padding-bottom: 10px;
+
+    h2 {
+        font-family: "Amaranth", Helvetica, serif;
+        font-style: bold;
+        font-size: 27px;
+        color: #000;
+        text-align: center;
+    }
+
+    p {
+        font-family: "Titillium Web", Arial, serif;
+        font-style: thin;
+        font-size: 16px;
+        color: #000;
+        text-align: left;
+    }
+
+    ul{
+        li{
+            margin-bottom: 16px;
+        }
+    }
+
+    @include md {
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". section-4 .";
+
+        h2 {
+            font-family: "Amaranth", Helvetica, serif;
+            font-style: bold;
+            font-size: 27px;
+            color: #000;
+            text-align: center;
+        }
+
+        p {
+            font-family: "Titillium Web", Arial, serif;
+            font-style: thin;
+            font-size: 16px;
+            color: #000;
+            text-align: left;
+        }
+
+    }
+
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+
+        h2 {
+            font-family: "Amaranth", Helvetica, serif;
+            font-style: bold;
+            font-size: 27px;
+            color: #000;
+            text-align: center;
+        }
+
+        p {
+            font-family: "Titillium Web", Arial, serif;
+            font-style: thin;
+            font-size: 16px;
+            color: #000;
+            text-align: left;
+        }
+    }
+
+    >div {
+
+        @include md {
+            grid-area: section-4;
+        }
+
+        ul {
+
+            #s1 {
+                @include md {
+                    grid-area: s1;
+
+                }
+            }
+
+            #s2 {
+                @include md {
+                    grid-area: s2;
+                }
+            }
+
+            #s3 {
+                @include md {
+                    grid-area: s3;
+                }
+            }
+
+            #s4 {
+                @include md {
+                    grid-area: s4;
+                }
+            }
+
+            #s5 {
+                @include md {
+                    grid-area: s5;
+                }
+            }
+
+
+            @include md {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-areas:
+                    "s1 s1 s2 s2"
+                    "s3 s3 s4 s4"
+                    ". s5 s5 .";
+                gap: 16px;
+            }
+
+            @include lg {
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-areas:
+                    "s1 s1  s2 s2 s3 s3"
+                    ". s4 s4 s5 s5 .";
+            }
+
+            li {
+                background-color: $mintgreen;
+
+                img {
+                    width: 100%;
+                }
+
+                section {
+                    display: grid;
+                    grid-template-columns: 16px auto 16px;
+                    grid-template-areas: ". section-4-content .";
+
+                    >div {
+                        grid-area: section-4-content;
+
+                        button {
+                            background-color: $pink;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
