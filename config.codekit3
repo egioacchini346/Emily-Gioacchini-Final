@@ -72,14 +72,6 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 3
     },
-    "\/dev\/content\/homepage.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/homepage.html",
-      "oF" : 1
-    },
     "\/dev\/content\/pin-the-map.kit" : {
       "cB" : 0,
       "ft" : 2048,
