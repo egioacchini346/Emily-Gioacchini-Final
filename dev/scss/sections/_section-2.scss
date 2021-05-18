@@ -1,0 +1,44 @@
+/* =============
+    section-2
+============= */
+
+#section-2 {
+
+    h1 {
+        font-family: "Amaranth", Helvetica, sans-serif;
+        font-style: bold;
+        font-size: 13px;
+        color: $white;
+        text-align: center;
+        background-color: $darkblue;
+    }
+
+    margin-bottom: 10px;
+
+    div{
+        background-color: $darkblue;
+
+        h1 {
+            font-family: "Amaranth", Helvetica, sans-serif;
+            font-style: bold;
+            font-size: 16px;
+            color: $white;
+            text-align: center;
+        }
+
+        h4 {
+            font-family: "Amaranth", Helvetica, sans-serif;
+            font-style: bold;
+            font-size: 9px;
+            color: $darkblue;
+            text-align: left;
+            background-color: white;
+        }
+
+
+        
+    }
+
+
+
+}

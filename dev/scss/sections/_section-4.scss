@@ -2,7 +2,16 @@
     section-4
 ============= */
 #section-4 {
-    padding-bottom: 10px;
+
+    h1 {
+        font-family: "Amaranth", Helvetica, sans-serif;
+        font-style: bold;
+        font-size: 13px;
+        color: $white;
+        text-align: center;
+        background-color: $darkblue;
+        margin-bottom: 20px;
+    }
 
     h2 {
         font-family: "Amaranth", Helvetica, sans-serif;
