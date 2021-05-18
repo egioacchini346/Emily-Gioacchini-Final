@@ -2,11 +2,16 @@
     section-7
 ============= */
 #section-7 {
-    button {
-        background-color: $yellow;
-        font-family: "Amaranth", Arial, Helvetica, sans-serif;
+
+    background-color: $lightblue;
+
+    p {
+        font-family: "Titillium Web", Arial, sans-serif;
         font-style: bold;
-        font-size: 12px;
+        font-size: 10px;
         color: $darkblue;
+        margin-left: 70px;
+        margin-right: 70px;
+        text-align: left;
     }
 }

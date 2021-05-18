@@ -459,6 +459,17 @@ header > div section img {
 footer {
   background-color: #001f3d;
   padding: 16px;
+  text-align: center;
+}
+footer a {
+  font-family: "Titillium Web", Arial, sans-serif;
+  font-style: bold;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
+footer ul {
+  color: #f9d801;
 }
 @media (min-width: 1200px) {
   footer {
@@ -516,27 +527,58 @@ footer > div section ul li div {
 }
 
 /* =============
+    section-3
+============= */
+#section-3 {
+  margin-bottom: 30px;
+}
+#section-3 h1 {
+  font-family: "Amaranth", Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  color: #001f3d;
+  text-align: center;
+}
+#section-3 h2 {
+  font-family: "Amaranth", Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 16px;
+  color: #001f3d;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#section-3 p {
+  font-family: "Titillium Web", Arial, sans-serif;
+  font-style: bold;
+  font-size: 12px;
+  color: #001f3d;
+  text-align: left;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+/* =============
     section-4
 ============= */
 #section-4 {
   padding-bottom: 10px;
 }
 #section-4 h2 {
-  font-family: "Amaranth", Helvetica, serif;
+  font-family: "Amaranth", Helvetica, sans-serif;
   font-style: bold;
   font-size: 27px;
   color: #fff;
   text-align: center;
 }
 #section-4 p {
-  font-family: "Titillium Web", Arial, serif;
+  font-family: "Titillium Web", Arial, sans-serif;
   font-style: thin;
   font-size: 16px;
   color: #fff;
   text-align: center;
 }
 #section-4 button {
-  text-align: center;
+  float: center;
 }
 #section-4 ul li {
   margin-bottom: 16px;
@@ -548,14 +590,14 @@ footer > div section ul li div {
     grid-template-areas: ". section-4 .";
   }
   #section-4 h2 {
-    font-family: "Amaranth", Helvetica, serif;
+    font-family: "Amaranth", Helvetica, sans-serif;
     font-style: bold;
     font-size: 27px;
     color: #fff;
     text-align: center;
   }
   #section-4 p {
-    font-family: "Titillium Web", Arial, serif;
+    font-family: "Titillium Web", Arial, sans-serif;
     font-style: thin;
     font-size: 16px;
     color: #fff;
@@ -650,12 +692,14 @@ footer > div section ul li div {
   padding: 10px;
   padding-bottom: 10px;
 }
-#section-5 h4 {
+#section-5 h1 {
   font-family: "Amaranth", Helvetica, sans-serif;
   font-style: bold;
   font-size: 18px;
   color: #001f3d;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 #section-5 h3 {
   font-family: "Titillum Web", Arial, sans-serif;
@@ -686,7 +730,6 @@ footer > div section ul li div {
   color: #fff;
   text-align: center;
   background-color: #001f3d;
-  padding: 10px;
 }
 #section-5 #L1 {
   background-color: #d2e9ff;
@@ -694,7 +737,7 @@ footer > div section ul li div {
 }
 #section-5 #L2 {
   background-color: #fff;
-  padding: 10px;
+  padding: 20px;
 }
 #section-5 #L3 {
   background-color: #d2e9ff;
@@ -702,7 +745,7 @@ footer > div section ul li div {
 }
 #section-5 #L4 {
   background-color: #fff;
-  padding: 10px;
+  padding: 20px;
 }
 #section-5 #L5 {
   background-color: #d2e9ff;
@@ -710,7 +753,7 @@ footer > div section ul li div {
 }
 #section-5 #L6 {
   background-color: #fff;
-  padding: 10px;
+  padding: 20px;
 }
 #section-5 #L7 {
   background-color: #d2e9ff;
@@ -718,7 +761,23 @@ footer > div section ul li div {
 }
 #section-5 #L8 {
   background-color: #fff;
-  padding: 10px;
+  padding: 20px;
+}
+#section-5 #L9 {
+  background-color: #d2e9ff;
+  padding: 20px;
+}
+#section-5 #L10 {
+  background-color: #fff;
+  padding: 20px;
+}
+#section-5 #L11 {
+  background-color: #d2e9ff;
+  padding: 20px;
+}
+#section-5 #L12 {
+  background-color: #fff;
+  padding: 20px;
 }
 #section-5 ul li {
   margin-bottom: 16px;
@@ -781,17 +840,37 @@ footer > div section ul li div {
   }
 }
 @media (min-width: 768px) {
+  #section-5 > div ul #L9 {
+    grid-area: L9;
+  }
+}
+@media (min-width: 768px) {
+  #section-5 > div ul #L10 {
+    grid-area: L10;
+  }
+}
+@media (min-width: 768px) {
+  #section-5 > div ul #L11 {
+    grid-area: L11;
+  }
+}
+@media (min-width: 768px) {
+  #section-5 > div ul #L12 {
+    grid-area: L12;
+  }
+}
+@media (min-width: 768px) {
   #section-5 > div ul {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "L1" "L2" "L3" "L4" "L5" "L6" "L7" "L8";
+    grid-template-areas: "L1" "L2" "L3" "L4" "L5" "L6" "L7" "L8" "L9" "L10" "L11" "L12";
     gap: 16px;
   }
 }
 @media (min-width: 1024px) {
   #section-5 > div ul {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "L1" "L2" "L3" "L4" "L5" "L6" "L7" "L8";
+    grid-template-areas: "L1" "L2" "L3" "L4" "L5" "L6" "L7" "L8" "L9" "L10" "L11" "L12";
   }
 }
 
@@ -807,12 +886,27 @@ footer > div section ul li div {
   font-style: bold;
   font-size: 10px;
   color: #001f3d;
+  text-align: left;
 }
 #section-6 h1 {
   font-family: "Amaranth", Helvetica, sans-serif;
   font-style: bold;
   font-size: 20px;
   color: #f9d801;
+}
+#section-6 h4 {
+  font-family: "Titillium Web", Arial, sans-serif;
+  font-style: bold;
+  font-size: 11px;
+  color: #fff;
+  text-align: left;
+}
+#section-6 h5 {
+  font-family: "Titillium Web", Arial, sans-serif;
+  font-style: bold;
+  font-size: 9px;
+  color: #fff;
+  text-align: left;
 }
 #section-6 button {
   background-color: #f9d801;
@@ -821,14 +915,23 @@ footer > div section ul li div {
   font-size: 12px;
   color: #001f3d;
 }
+#section-6 #form {
+  background-color: #001f3d;
+  margin: none;
+}
 
 /* =============
     section-7
 ============= */
-#section-7 button {
-  background-color: #f9d801;
-  font-family: "Amaranth", Arial, Helvetica, sans-serif;
+#section-7 {
+  background-color: #d2e9ff;
+}
+#section-7 p {
+  font-family: "Titillium Web", Arial, sans-serif;
   font-style: bold;
-  font-size: 12px;
+  font-size: 10px;
   color: #001f3d;
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: left;
 }

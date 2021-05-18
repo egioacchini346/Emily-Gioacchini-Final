@@ -5,12 +5,14 @@
 
     padding: 10px;
 
-    h4 {
+    h1 {
         font-family: "Amaranth", Helvetica, sans-serif;
         font-style: bold;
         font-size: 18px;
         color: $darkblue;
         text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     h3 {
@@ -45,7 +47,6 @@
         color: #fff;
         text-align: center;
         background-color: $darkblue;
-        padding: 10px;
     }
 
     #L1 {
@@ -55,7 +56,7 @@
 
     #L2 {
         background-color: $white;
-        padding: 10px;
+        padding: 20px;
     }
 
     #L3 {
@@ -65,7 +66,7 @@
 
     #L4 {
         background-color: $white;
-        padding: 10px;
+        padding: 20px;
     }
 
     #L5 {
@@ -75,7 +76,7 @@
 
     #L6 {
         background-color: $white;
-        padding: 10px;
+        padding: 20px;
     }
 
     #L7 {
@@ -85,8 +86,29 @@
 
     #L8 {
         background-color: $white;
-        padding: 10px;
+        padding: 20px;
     }
+
+    #L9 {
+        background-color: $lightblue;
+        padding: 20px;
+    }
+
+    #L10 {
+        background-color: $white;
+        padding: 20px;
+    }
+
+    #L11 {
+        background-color: $lightblue;
+        padding: 20px;
+    }
+
+    #L12 {
+        background-color: $white;
+        padding: 20px;
+    }
+
 
 
 
@@ -165,6 +187,30 @@
                 }
             }
 
+            #L9 {
+                @include md {
+                    grid-area: L9;
+                }
+            }
+
+            #L10 {
+                @include md {
+                    grid-area: L10;
+                }
+            }
+
+            #L11 {
+                @include md {
+                    grid-area: L11;
+                }
+            }
+
+            #L12 {
+                @include md {
+                    grid-area: L12;
+                }
+            }
+
 
             @include md {
                 display: grid;
@@ -177,7 +223,11 @@
                     "L5"
                     "L6"
                     "L7"
-                    "L8";
+                    "L8"
+                    "L9"
+                    "L10"
+                    "L11"
+                    "L12";
                 gap: 16px;
             }
 
@@ -191,7 +241,11 @@
                     "L5"
                     "L6"
                     "L7"
-                    "L8";
+                    "L8"
+                    "L9"
+                    "L10"
+                    "L11"
+                    "L12";
             }
 
         }

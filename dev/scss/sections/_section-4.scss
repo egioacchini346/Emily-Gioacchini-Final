@@ -5,7 +5,7 @@
     padding-bottom: 10px;
 
     h2 {
-        font-family: "Amaranth", Helvetica, serif;
+        font-family: "Amaranth", Helvetica, sans-serif;
         font-style: bold;
         font-size: 27px;
         color: #fff;
@@ -13,7 +13,7 @@
     }
 
     p {
-        font-family: "Titillium Web", Arial, serif;
+        font-family: "Titillium Web", Arial, sans-serif;
         font-style: thin;
         font-size: 16px;
         color: #fff;
@@ -21,7 +21,8 @@
     }
 
     button {
-        text-align: center;
+        float: center;
+
     }
 
     ul {
@@ -36,7 +37,7 @@
         grid-template-areas: ". section-4 .";
 
         h2 {
-            font-family: "Amaranth", Helvetica, serif;
+            font-family: "Amaranth", Helvetica, sans-serif;
             font-style: bold;
             font-size: 27px;
             color: #fff;
@@ -44,7 +45,7 @@
         }
 
         p {
-            font-family: "Titillium Web", Arial, serif;
+            font-family: "Titillium Web", Arial, sans-serif;
             font-style: thin;
             font-size: 16px;
             color: #fff;

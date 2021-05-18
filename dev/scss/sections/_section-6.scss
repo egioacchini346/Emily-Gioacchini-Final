@@ -11,6 +11,7 @@
         font-style: bold;
         font-size: 10px;
         color: $darkblue;
+        text-align: left;
     }
 
     h1 {
@@ -20,12 +21,35 @@
         color: $yellow;
     }
 
+    h4 {
+        font-family: "Titillium Web", Arial, sans-serif;
+        font-style: bold;
+        font-size: 11px;
+        color: $white;
+        text-align: left;
+    }
+
+    h5 {
+        font-family: "Titillium Web", Arial, sans-serif;
+        font-style: bold;
+        font-size: 9px;
+        color: $white;
+        text-align: left;
+    }
+
     button {
         background-color: $yellow;
         font-family: "Amaranth", Helvetica, sans-serif;
         font-style: bold;
         font-size: 12px;
         color: $darkblue;
+    }
+
+    #form {
+        background-color: $darkblue;
+        margin: none;
+
+
     }
 
 
