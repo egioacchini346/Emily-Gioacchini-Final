@@ -1,0 +1,32 @@
+/* =============
+    section-6
+============= */
+#section-6 {
+    padding: 20px;
+    text-align: center;
+
+
+    p {
+        font-family: "Titillium Web", Arial, sans-serif;
+        font-style: bold;
+        font-size: 10px;
+        color: $darkblue;
+    }
+
+    h1 {
+        font-family: "Amaranth", Helvetica, sans-serif;
+        font-style: bold;
+        font-size: 20px;
+        color: $yellow;
+    }
+
+    button {
+        background-color: $yellow;
+        font-family: "Amaranth", Helvetica, sans-serif;
+        font-style: bold;
+        font-size: 12px;
+        color: $darkblue;
+    }
+
+
+}

@@ -1,0 +1,199 @@
+/* =============
+    section-5
+============= */
+#section-5 {
+
+    padding: 10px;
+
+    h4 {
+        font-family: "Amaranth", Helvetica, sans-serif;
+        font-style: bold;
+        font-size: 18px;
+        color: $darkblue;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: "Titillum Web", Arial, sans-serif;
+        font-style: bold;
+        font-size: 14px;
+        color: $darkblue;
+        text-align: left;
+    }
+
+    h4 {
+        font-family: "Titillum Web", Arial, sans-serif;
+        font-style: bold;
+        font-size: 10px;
+        color: $darkblue;
+        text-align: left;
+    }
+
+    button {
+        background-color: $darkblue;
+        font-family: "Amaranth", Helvetica, sans-serif;
+        font-style: bold;
+        font-size: 12px;
+        color: $white;
+        float: right;
+    }
+
+    p {
+        font-family: "Amaranth", Helvetica, sans-serif;
+        font-style: bold;
+        font-size: 12px;
+        color: #fff;
+        text-align: center;
+        background-color: $darkblue;
+        padding: 10px;
+    }
+
+    #L1 {
+        background-color: $lightblue;
+        padding: 20px;
+    }
+
+    #L2 {
+        background-color: $white;
+        padding: 10px;
+    }
+
+    #L3 {
+        background-color: $lightblue;
+        padding: 20px;
+    }
+
+    #L4 {
+        background-color: $white;
+        padding: 10px;
+    }
+
+    #L5 {
+        background-color: $lightblue;
+        padding: 20px;
+    }
+
+    #L6 {
+        background-color: $white;
+        padding: 10px;
+    }
+
+    #L7 {
+        background-color: $lightblue;
+        padding: 20px;
+    }
+
+    #L8 {
+        background-color: $white;
+        padding: 10px;
+    }
+
+
+
+    padding-bottom: 10px;
+
+    ul {
+        li {
+            margin-bottom: 16px;
+        }
+    }
+
+    @include md {
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". section-5 .";
+    }
+
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+    }
+
+    >div {
+
+        @include md {
+            grid-area: section-5;
+        }
+
+        ul {
+
+            #L1 {
+                @include md {
+                    grid-area: L1;
+
+                }
+            }
+
+            #L2 {
+                @include md {
+                    grid-area: L2;
+                }
+            }
+
+            #L3 {
+                @include md {
+                    grid-area: L3;
+                }
+            }
+
+            #L4 {
+                @include md {
+                    grid-area: L4;
+                }
+            }
+
+            #L5 {
+                @include md {
+                    grid-area: L5;
+                }
+            }
+
+            #L6 {
+                @include md {
+                    grid-area: L6;
+                }
+            }
+
+            #L7 {
+                @include md {
+                    grid-area: L7;
+                }
+            }
+
+            #L8 {
+                @include md {
+                    grid-area: L8;
+                }
+            }
+
+
+            @include md {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-areas:
+                    "L1"
+                    "L2"
+                    "L3"
+                    "L4"
+                    "L5"
+                    "L6"
+                    "L7"
+                    "L8";
+                gap: 16px;
+            }
+
+            @include lg {
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-areas:
+                    "L1"
+                    "L2"
+                    "L3"
+                    "L4"
+                    "L5"
+                    "L6"
+                    "L7"
+                    "L8";
+            }
+
+        }
+    }
+}

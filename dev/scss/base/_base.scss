@@ -14,15 +14,3 @@ ul {
         list-style: none;
     }
 }
-
-.content {
-    margin-bottom: 24px;
-
-    @include md {
-        margin-bottom: 32px;
-    }
-
-    @include xl {
-        margin-bottom: 64px;
-    }
-}
