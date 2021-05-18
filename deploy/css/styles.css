@@ -555,7 +555,7 @@ footer > div section ul li div {
 #section-2 div {
   background-color: #001f3d;
 }
-#section-2 div h1 {
+#section-2 div h2 {
   font-family: "Amaranth", Helvetica, sans-serif;
   font-style: bold;
   font-size: 16px;
@@ -569,6 +569,21 @@ footer > div section ul li div {
   color: #001f3d;
   text-align: left;
   background-color: white;
+}
+#section-2 div h3 {
+  font-family: "Amaranth", Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 9px;
+  color: #f9d801;
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+#section-2 div p {
+  font-family: "Titillium Web", Arial, sans-serif;
+  font-style: bold;
+  font-size: 6px;
+  color: #90b1c6;
+  text-align: left;
 }
 
 /* =============
