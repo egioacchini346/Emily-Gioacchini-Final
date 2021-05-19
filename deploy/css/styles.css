@@ -618,6 +618,14 @@ footer > div section ul li div {
   text-align: center;
   background-color: #001f3d;
 }
+#section-3 h4 {
+  font-family: "Amaranth", Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  background-color: #001f3d;
+}
 #section-3 p {
   font-family: "Titillium Web", Arial, sans-serif;
   font-style: bold;
