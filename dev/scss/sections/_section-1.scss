@@ -3,6 +3,8 @@
 ============= */
 
 #section-1 {
+
+    background-color: $lightblue;
    
     h1 {
         font-family: "Amaranth", Helvetica, sans-serif;
@@ -12,4 +14,12 @@
         text-align: center;
         background-color: $darkblue;
     }
+
+    p {
+        font-family: "Titillum Web", Arial, sans-serif;
+        font-style: bold;
+        font-size: 8px;
+        color: $darkblue;
+        text-align: left;
+    }    
 }

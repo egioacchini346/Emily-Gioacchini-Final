@@ -365,6 +365,10 @@ ul li {
   list-style: none;
 }
 
+li {
+  list-style: none;
+}
+
 /* =============
     Typography
 ============= */
@@ -529,6 +533,9 @@ footer > div section ul li div {
 /* =============
     section-1
 ============= */
+#section-1 {
+  background-color: #d2e9ff;
+}
 #section-1 h1 {
   font-family: "Amaranth", Helvetica, sans-serif;
   font-style: bold;
@@ -536,6 +543,13 @@ footer > div section ul li div {
   color: #fff;
   text-align: center;
   background-color: #001f3d;
+}
+#section-1 p {
+  font-family: "Titillum Web", Arial, sans-serif;
+  font-style: bold;
+  font-size: 8px;
+  color: #001f3d;
+  text-align: left;
 }
 
 /* =============
