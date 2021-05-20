@@ -1034,6 +1034,27 @@ footer > div section ul li div {
   background-color: #001f3d;
   margin: none;
 }
+#section-6 input {
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px;
+  width: 253px;
+  height: 10px;
+}
+#section-6 #ip1 {
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px;
+  width: 253px;
+  height: 106px;
+}
+#section-6 #ip2 {
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px;
+  width: 253px;
+  height: 106px;
+}
 
 /* =============
     section-7

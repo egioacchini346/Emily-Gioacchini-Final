@@ -29,25 +29,25 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/section-3\/section-3.png" : {
-      "ft" : 32768,
+    "\/deploy\/img\/section-3\/section-3.jpg" : {
+      "ft" : 16384,
       "iS" : 112815,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-3\/section-3.png",
+      "oAP" : "\/deploy\/img\/section-3\/section-3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-4\/Broadway Theatre Image.jpg" : {
+    "\/deploy\/img\/section-4\/ Broadway Theatre Image.jpg" : {
       "ft" : 16384,
       "iS" : 298654,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-4\/Broadway Theatre Image.jpg",
+      "oAP" : "\/deploy\/img\/section-4\/ Broadway Theatre Image.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -100,6 +100,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/section-4\/Toronto Theatre Image.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/section-7\/Pin the Map.jpg" : {
+      "ft" : 16384,
+      "iS" : 157792,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-7\/Pin the Map.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
