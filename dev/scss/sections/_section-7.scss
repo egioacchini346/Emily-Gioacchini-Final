@@ -39,4 +39,11 @@
         margin-top: 40px;
     }
     
+    @include md {
+        grid-template-areas: ". section-7 .";
+    }
+
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+    }
 }

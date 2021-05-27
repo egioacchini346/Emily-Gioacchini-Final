@@ -27,6 +27,7 @@
             color: #fff;
             text-align: center;
             margin-bottom: 20px;
+            margin-right: 150px;
         }
     
         p {
@@ -62,9 +63,7 @@
     }
 
     @include md {
-        display: grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". section-4 .";
+        grid-template-areas: ". section-5 .";
 
         h2 {
             font-family: "Amaranth", Helvetica, sans-serif;
@@ -107,7 +106,7 @@
     >div {
 
         @include md {
-            grid-area: section-4;
+            grid-template-areas: ". section-5 .";
         }
 
         ul {

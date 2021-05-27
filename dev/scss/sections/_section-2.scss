@@ -13,9 +13,10 @@
         background-color: $darkblue;
         padding-top: 10px;
         padding-bottom: 10px;
+        margin-bottom: 5px;
     }
 
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 
     div {
         background-color: $darkblue;
@@ -26,6 +27,8 @@
             font-size: 16px;
             color: $white;
             text-align: center;
+            padding-top: 10px;
+            padding-bottom: 25px;
         }
 
         h4 {
@@ -35,6 +38,9 @@
             color: $darkblue;
             text-align: left;
             background-color: white;
+            margin-left: 170px;
+            margin-right: 170px;
+            margin-top: 10px;
         }
 
         h3 {
@@ -44,6 +50,9 @@
             color: $yellow;
             text-align: left;
             border-bottom: 1px solid white;
+            margin-left: 170px;
+            margin-right: 180px;
+            padding-top:15px;
         }
 
         p {
@@ -52,6 +61,21 @@
             font-size: 6px;
             color: $mediumblue;
             text-align: left;
+            margin-left: 180px;
+            margin-right: 180px;
+            margin-top: 3px;
+        }
+
+        #last {
+            font-family: "Titillium Web", Arial, sans-serif;
+            font-weight: bold;
+            font-size: 6px;
+            color: $mediumblue;
+            text-align: left;
+            margin-left: 180px;
+            margin-right: 180px;
+            margin-top: 3px;
+            margin-bottom: 5px;
         }
     }
 }

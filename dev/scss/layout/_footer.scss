@@ -3,7 +3,8 @@
 ============= */
 footer {
 	background-color: $darkblue;
-	padding: 16px;
+	padding-top: 10px;
+	padding-bottom: 20px;
 	text-align: center;
 
 	a {
@@ -13,68 +14,30 @@ footer {
         color: $white;
         text-align: center;
 	}
-	
-	ul{
+	#icons {
 		color: $yellow;
+		display: flex;
+		align-content: center;
 	}
 
+
 	@include xl {
-		display: grid;
 		grid-template-areas: ". footer .";
-		grid-template-columns: auto 1200px auto;
 	}
 
 	>div {
-		display: grid;
-		gap: 24px;
+		gap: 3px;
 
 		@include md {
-			grid-template-areas: "locations newsletter"
-				"locations social";
-			grid-template-columns: 50% auto;
+			grid-template-areas: ". footer .";
 		}
 
 		@include lg {
-			grid-template-areas: "locations newsletter social";
-			grid-template-columns: repeat(3, 1fr);
+			grid-template-areas: ". footer .";
 		}
 
 		@include xl {
 			grid-area: footer;
 		}
-
-		h1 {
-			font-size: rem-calc(20);
-			font-weight: 600;
-			margin-bottom: 16px;
-		}
-
-		section {
-			padding-top: 16px;
-
-			h2 {
-				font-size: rem-calc(16);
-				font-weight: 600;
-				padding-bottom: 8px;
-			}
-
-			ul {
-				border-bottom: 1px solid $darkblue;
-				padding-bottom: 16px;
-
-				li {
-					display: flex;
-					margin-bottom: 16px;
-
-					div {
-						align-items: center;
-						display: flex;
-						margin-right: 16px;
-					}
-				}
-			}
-		}
-
-
 	}
 }
