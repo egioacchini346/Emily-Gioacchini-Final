@@ -545,6 +545,8 @@ footer > div section ul li div {
   text-align: center;
   background-color: #001f3d;
   margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #section-1 p {
   font-family: "Titillum Web", Arial, sans-serif;
@@ -559,9 +561,10 @@ footer > div section ul li div {
 #section-1 h2 {
   font-family: "Francois One", Helvetica, sans-serif;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 10px;
   color: #001f3d;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 /* =============
@@ -577,6 +580,8 @@ footer > div section ul li div {
   color: #fff;
   text-align: center;
   background-color: #001f3d;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #section-2 div {
   background-color: #001f3d;
@@ -871,6 +876,8 @@ footer > div section ul li div {
   color: #fff;
   text-align: center;
   background-color: #001f3d;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 #section-5 #L1 {
   background-color: #d2e9ff;
@@ -1029,6 +1036,7 @@ footer > div section ul li div {
   color: #fff;
   text-align: center;
   background-color: #001f3d;
+  margin-bottom: 20px;
 }
 #section-6 p {
   font-family: "Titillium Web", Arial, sans-serif;
@@ -1036,12 +1044,17 @@ footer > div section ul li div {
   font-size: 10px;
   color: #001f3d;
   text-align: left;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 10px;
 }
 #section-6 h1 {
   font-family: "Amaranth", Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
   color: #f9d801;
+  margin-top: 20px;
+  padding-top: 15px;
 }
 #section-6 h4 {
   font-family: "Titillium Web", Arial, sans-serif;
