@@ -9,10 +9,14 @@ footer {
 
 	a {
 		font-family: "Titillium Web", Arial, sans-serif;
-        font-style: bold;
-        font-size: 12px;
-        color: $white;
-        text-align: center;
+		font-style: bold;
+		font-size: 12px;
+		color: $white;
+		text-align: center;
+	}
+
+	.icons {
+		flex-direction: row;
 	}
 
 	@include xl {

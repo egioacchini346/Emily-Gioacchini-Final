@@ -27,7 +27,7 @@
             color: #fff;
             text-align: center;
             margin-bottom: 20px;
-            margin-right: 150px;
+            margin-right: 250px;
         }
     
         p {
@@ -71,6 +71,8 @@
             font-size: 27px;
             color: #fff;
             text-align: center;
+            margin-bottom: 20px;
+            margin-right: 150px;
         }
 
         p {
@@ -79,28 +81,35 @@
             font-size: 16px;
             color: #fff;
             text-align: center;
+            margin-bottom: 15px;
+            margin-right: 150px;
         }
 
     }
 
     @include xl {
         grid-template-columns: auto 1200px auto;
-
+        
         h2 {
-            font-family: "Amaranth", Helvetica, serif;
+            font-family: "Amaranth", Helvetica, sans-serif;
             font-weight: bold;
             font-size: 27px;
             color: #fff;
             text-align: center;
+            margin-bottom: 20px;
+            margin-right: 150px;
         }
 
         p {
-            font-family: "Titillium Web", Arial, serif;
+            font-family: "Titillium Web", Arial, sans-serif;
             font-weight: thin;
             font-size: 16px;
             color: #fff;
             text-align: center;
+            margin-bottom: 15px;
+            margin-right: 150px;
         }
+       
     }
 
     >div {

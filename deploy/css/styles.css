@@ -473,6 +473,9 @@ footer a {
   color: #fff;
   text-align: center;
 }
+footer .icons {
+  flex-direction: row;
+}
 @media (min-width: 1200px) {
   footer {
     grid-template-areas: ". footer .";
@@ -706,7 +709,7 @@ footer > div {
   color: #fff;
   text-align: center;
   margin-bottom: 20px;
-  margin-right: 150px;
+  margin-right: 250px;
 }
 #section-4 div p {
   font-family: "Titillium Web", Arial, sans-serif;
@@ -743,6 +746,8 @@ footer > div {
     font-size: 27px;
     color: #fff;
     text-align: center;
+    margin-bottom: 20px;
+    margin-right: 150px;
   }
   #section-4 p {
     font-family: "Titillium Web", Arial, sans-serif;
@@ -750,6 +755,8 @@ footer > div {
     font-size: 16px;
     color: #fff;
     text-align: center;
+    margin-bottom: 15px;
+    margin-right: 150px;
   }
 }
 @media (min-width: 1200px) {
@@ -757,18 +764,22 @@ footer > div {
     grid-template-columns: auto 1200px auto;
   }
   #section-4 h2 {
-    font-family: "Amaranth", Helvetica, serif;
+    font-family: "Amaranth", Helvetica, sans-serif;
     font-weight: bold;
     font-size: 27px;
     color: #fff;
     text-align: center;
+    margin-bottom: 20px;
+    margin-right: 150px;
   }
   #section-4 p {
-    font-family: "Titillium Web", Arial, serif;
+    font-family: "Titillium Web", Arial, sans-serif;
     font-weight: thin;
     font-size: 16px;
     color: #fff;
     text-align: center;
+    margin-bottom: 15px;
+    margin-right: 150px;
   }
 }
 @media (min-width: 768px) {
@@ -1195,9 +1206,40 @@ footer > div {
   #section-7 {
     grid-template-areas: ". section-7 .";
   }
+  #section-7 h1 {
+    font-family: "Amaranth", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    background-color: #001f3d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 35px;
+  }
+  #section-7 p {
+    font-family: "Titillium Web", Arial, sans-serif;
+    background-color: #d2e9ff;
+    font-weight: bold;
+    font-size: 10px;
+    color: #001f3d;
+    margin-left: 400px;
+    margin-right: 395px;
+    text-align: left;
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
+  #section-7 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
 }
 @media (min-width: 1200px) {
   #section-7 {
-    grid-template-columns: auto 1200px auto;
+    grid-template-columns: ". section-7 .";
   }
 }
