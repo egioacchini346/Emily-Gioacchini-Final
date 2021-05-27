@@ -701,26 +701,43 @@ footer > div section ul li div {
   color: #fff;
   text-align: center;
   background-color: #001f3d;
-  margin-bottom: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-bottom: 40px;
 }
-#section-4 h2 {
+#section-4 div {
+  padding-left: 148px;
+  padding-right: 148px;
+}
+#section-4 div h2 {
   font-family: "Amaranth", Helvetica, sans-serif;
   font-weight: bold;
   font-size: 27px;
   color: #fff;
   text-align: center;
+  margin-bottom: 20px;
 }
-#section-4 p {
+#section-4 div p {
   font-family: "Titillium Web", Arial, sans-serif;
   font-weight: thin;
   font-size: 16px;
   color: #fff;
   text-align: center;
+  margin-bottom: 15px;
 }
-#section-4 button {
-  float: center;
+#section-4 div button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-family: "Amaranth", Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  color: #001f3d;
+  text-align: center;
 }
 #section-4 ul li {
   margin-bottom: 16px;
@@ -831,7 +848,6 @@ footer > div section ul li div {
     section-5
 ============= */
 #section-5 {
-  padding: 10px;
   padding-bottom: 10px;
 }
 #section-5 h2 {
