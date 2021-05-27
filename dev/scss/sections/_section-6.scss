@@ -35,6 +35,7 @@
         color: $yellow;
         margin-top: 20px;
         padding-top: 15px;
+        padding-bottom: 10px;
     }
 
     h4 {
@@ -43,6 +44,8 @@
         font-size: 11px;
         color: $white;
         text-align: left;
+        margin-left: 110px;
+        margin-top: 10px;
     }
 
     h5 {
@@ -51,6 +54,21 @@
         font-size: 9px;
         color: $white;
         text-align: left;
+        margin-left: 110px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    h6 {
+        font-family: "Titillium Web", Arial, sans-serif;
+        font-weight: bold;
+        font-size: 11px;
+        color: $white;
+        text-align: left;
+        margin-left: 110px;
+        margin-right: 110px;
+        margin-top: 10px;
+        margin-bottom: 5px;
     }
 
     button {
@@ -60,7 +78,9 @@
         font-size: 12px;
         color: $darkblue;
         margin-top: 10px;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
+        margin-left: 40px;
+        margin-right: 40px;
         padding-left: 12px;
         padding-right: 12px;
         border-radius: 6px;
