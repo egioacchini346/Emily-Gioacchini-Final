@@ -14,12 +14,6 @@ footer {
         color: $white;
         text-align: center;
 	}
-	#icons {
-		color: $yellow;
-		display: flex;
-		align-content: center;
-	}
-
 
 	@include xl {
 		grid-template-areas: ". footer .";

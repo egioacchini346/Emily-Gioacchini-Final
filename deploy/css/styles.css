@@ -473,11 +473,6 @@ footer a {
   color: #fff;
   text-align: center;
 }
-footer #icons {
-  color: #f9d801;
-  display: flex;
-  align-content: center;
-}
 @media (min-width: 1200px) {
   footer {
     grid-template-areas: ". footer .";
