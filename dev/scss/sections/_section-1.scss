@@ -5,6 +5,7 @@
 #section-1 {
 
     background-color: $lightblue;
+    margin-bottom: 10px;
 
     h1 {
         font-family: "Amaranth", Helvetica, sans-serif;
@@ -22,5 +23,17 @@
         font-size: 8px;
         color: $darkblue;
         text-align: left;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-bottom: 10px;
     }
+
+    h2 {
+        font-family: "Francois One", Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: 12px;
+        color: $darkblue;
+        text-align: center;
+    }
+    
 }
