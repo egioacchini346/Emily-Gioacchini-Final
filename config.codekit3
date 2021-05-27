@@ -29,6 +29,19 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/header\/Header Background.png" : {
+      "ft" : 32768,
+      "iS" : 197115,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/header\/Header Background.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/section-3\/section-3.jpg" : {
       "ft" : 16384,
       "iS" : 112815,
@@ -543,7 +556,7 @@
   "projectAttributes" : {
     "creationDate" : 642546515.10701001,
     "displayValue" : "Emily-Gioacchini-Final",
-    "displayValueWasSetByUser" : 0,
+    "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-payne",
     "iconImageWasSetByUser" : 0,
     "lastBuiltDate" : 642546550.76423299

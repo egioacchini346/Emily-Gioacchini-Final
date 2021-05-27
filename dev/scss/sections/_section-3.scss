@@ -6,7 +6,11 @@
 
     margin-bottom: 30px;
 
-
+    #p1 {
+        margin-top: 25px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
     #p2 {
         background-color: $lightblue;
     }
@@ -21,11 +25,12 @@
 
     h2 {
         font-family: "Amaranth", Helvetica, sans-serif;
-        font-weight: bold;
+        font-weight: normal;
         font-size: 16px;
         color: $darkblue;
         text-align: center;
         margin-bottom: 30px;
+        margin-top: 5px;
     }
 
     h3 {
@@ -37,13 +42,19 @@
         background-color: $darkblue;
     }
 
-    h4 {
+    #Petieb {
+        display: block;
         font-family: "Amaranth", Helvetica, sans-serif;
         font-weight: bold;
         font-size: 18px;
         color: $white;
         text-align: center;
         background-color: $darkblue;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 40px;
+        margin-left: 130px;
+        margin-right: 130px;
     }
 
     p {
@@ -52,8 +63,19 @@
         font-size: 12px;
         color: $darkblue;
         text-align: left;
-        margin-left: 70px;
-        margin-right: 70px;
+        padding-bottom: 30px;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        padding-top: 130px;
     }
 
 

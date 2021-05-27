@@ -543,6 +543,7 @@ footer > div section ul li div {
   color: #fff;
   text-align: center;
   background-color: #001f3d;
+  margin-bottom: 15px;
 }
 #section-1 p {
   font-family: "Titillum Web", Arial, sans-serif;
@@ -606,6 +607,11 @@ footer > div section ul li div {
 #section-3 {
   margin-bottom: 30px;
 }
+#section-3 #p1 {
+  margin-top: 25px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
 #section-3 #p2 {
   background-color: #d2e9ff;
 }
@@ -618,11 +624,12 @@ footer > div section ul li div {
 }
 #section-3 h2 {
   font-family: "Amaranth", Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 16px;
   color: #001f3d;
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 5px;
 }
 #section-3 h3 {
   font-family: "Amaranth", Helvetica, sans-serif;
@@ -632,13 +639,19 @@ footer > div section ul li div {
   text-align: center;
   background-color: #001f3d;
 }
-#section-3 h4 {
+#section-3 #Petieb {
+  display: block;
   font-family: "Amaranth", Helvetica, sans-serif;
   font-weight: bold;
   font-size: 18px;
   color: #fff;
   text-align: center;
   background-color: #001f3d;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  margin-left: 130px;
+  margin-right: 130px;
 }
 #section-3 p {
   font-family: "Titillium Web", Arial, sans-serif;
@@ -646,8 +659,18 @@ footer > div section ul li div {
   font-size: 12px;
   color: #001f3d;
   text-align: left;
-  margin-left: 70px;
-  margin-right: 70px;
+  padding-bottom: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+#section-3 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  padding-top: 130px;
 }
 
 /* =============
@@ -1078,4 +1101,10 @@ footer > div section ul li div {
   margin-left: 70px;
   margin-right: 70px;
   text-align: left;
+}
+#section-7 .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
