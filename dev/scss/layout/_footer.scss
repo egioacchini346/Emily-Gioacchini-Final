@@ -15,9 +15,7 @@ footer {
 		text-align: center;
 	}
 
-	.icons {
-		flex-direction: row;
-	}
+	
 
 	@include xl {
 		grid-template-areas: ". footer .";
