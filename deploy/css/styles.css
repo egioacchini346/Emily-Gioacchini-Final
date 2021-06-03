@@ -708,7 +708,7 @@ footer > div {
 }
 #section-4 div {
   padding-left: 148px;
-  padding-right: 148px;
+  padding-right: 163px;
 }
 #section-4 div h2 {
   font-family: "Amaranth", Helvetica, sans-serif;
@@ -729,8 +729,6 @@ footer > div {
 }
 #section-4 div button {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 25%;
   border-radius: 4px;
   margin-bottom: 20px;
@@ -824,14 +822,14 @@ footer > div {
   #section-4 > div ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "s1 s1 s2 s2" "s3 s3 s4 s4" ". s5 s5 .";
+    grid-template-areas: ". s1 s2 s3 .";
     gap: 16px;
   }
 }
 @media (min-width: 1024px) {
   #section-4 > div ul {
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "s1 s1  s2 s2 s3 s3" ". s4 s4 s5 s5 .";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "s1 s1 s2 s2 s3 s3";
   }
 }
 #section-4 > div ul li {
