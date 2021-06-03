@@ -12,7 +12,7 @@ footer {
 		flex-direction: row;
 		justify-content: center;
 		gap: 10px;
-
+		margin-bottom: 8px;
 	}
 
 	a {
@@ -22,9 +22,6 @@ footer {
 		color: $white;
 		text-align: center;
 	}
-
-	flex-direction: row;
-	
 
 	@include xl {
 		grid-template-areas: ". footer .";

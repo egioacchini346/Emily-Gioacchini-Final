@@ -465,13 +465,13 @@ footer {
   padding-top: 10px;
   padding-bottom: 20px;
   text-align: center;
-  flex-direction: row;
 }
 footer #flex {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 10px;
+  margin-bottom: 8px;
 }
 footer a {
   font-family: "Titillium Web", Arial, sans-serif;
@@ -840,7 +840,7 @@ footer > div {
 }
 #section-4 > div ul li section {
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: auto;
   grid-template-areas: ". section-4-content .";
 }
 #section-4 > div ul li section > div {
@@ -896,7 +896,7 @@ footer > div {
   font-size: 12px;
   color: #fff;
   float: right;
-  margin-top: -20px;
+  margin-top: -22px;
 }
 #section-5 p {
   font-family: "Amaranth", Helvetica, sans-serif;
@@ -1092,7 +1092,7 @@ footer > div {
   font-size: 11px;
   color: #fff;
   text-align: left;
-  margin-left: 110px;
+  margin-left: 115px;
   margin-top: 10px;
 }
 #section-6 h5 {
@@ -1101,7 +1101,7 @@ footer > div {
   font-size: 9px;
   color: #fff;
   text-align: left;
-  margin-left: 110px;
+  margin-left: 115px;
   margin-bottom: 5px;
   margin-top: 5px;
 }
@@ -1111,7 +1111,7 @@ footer > div {
   font-size: 11px;
   color: #fff;
   text-align: left;
-  margin-left: 110px;
+  margin-left: 115px;
   margin-right: 110px;
   margin-top: 10px;
   margin-bottom: 5px;
@@ -1124,8 +1124,8 @@ footer > div {
   color: #001f3d;
   margin-top: 10px;
   margin-bottom: 15px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 48px;
+  margin-right: 48px;
   padding-left: 12px;
   padding-right: 12px;
   border-radius: 6px;
