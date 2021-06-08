@@ -636,7 +636,7 @@ footer > div {
 #section-3 #p2 {
   background-color: #d2e9ff;
 }
-#section-3 h1 {
+#section-3 h3 {
   font-family: "Amaranth", Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -652,7 +652,7 @@ footer > div {
   margin-bottom: 30px;
   margin-top: 5px;
 }
-#section-3 h3 {
+#section-3 h1 {
   font-family: "Amaranth", Helvetica, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -864,7 +864,7 @@ footer > div {
 #section-5 {
   padding-bottom: 30px;
 }
-#section-5 h2 {
+#section-5 h1 {
   font-family: "Amaranth", Helvetica, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -874,7 +874,7 @@ footer > div {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-#section-5 h1 {
+#section-5 h2 {
   font-family: "Amaranth", Helvetica, sans-serif;
   font-weight: bold;
   font-size: 18px;
@@ -1064,7 +1064,7 @@ footer > div {
   padding-bottom: 20px;
   text-align: center;
 }
-#section-6 h2 {
+#section-6 h1 {
   font-family: "Amaranth", Helvetica, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -1085,7 +1085,7 @@ footer > div {
   margin-right: 70px;
   margin-bottom: 10px;
 }
-#section-6 h1 {
+#section-6 h2 {
   font-family: "Amaranth", Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
