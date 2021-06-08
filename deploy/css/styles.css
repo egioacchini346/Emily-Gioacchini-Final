@@ -369,6 +369,18 @@ li {
   list-style: none;
 }
 
+h1 {
+  font-family: "Amaranth", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  background-color: #001f3d;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 /* =============
     Typography
 ============= */
@@ -527,9 +539,9 @@ footer > div {
   font-size: 8px;
   color: #001f3d;
   text-align: left;
-  margin-left: 120px;
-  margin-right: 120px;
-  padding-bottom: 10px;
+  margin-left: 135px;
+  margin-right: 140px;
+  padding-bottom: 20px;
   padding-top: 5px;
   line-height: 12px;
 }
@@ -541,8 +553,8 @@ footer > div {
   text-align: center;
   margin-bottom: 10px;
   line-height: 12px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 135px;
+  margin-right: 150px;
 }
 #section-1 iframe {
   margin-left: 135px;
@@ -550,7 +562,7 @@ footer > div {
 }
 @media (min-width: 768px) {
   #section-1 {
-    background-size: 565px 1079px;
+    padding-bottom: 30px;
   }
   #section-1 h1 {
     font-family: "Amaranth", Helvetica, sans-serif;
@@ -569,8 +581,8 @@ footer > div {
     font-size: 12.75px;
     color: #001f3d;
     text-align: left;
-    margin-left: 170px;
-    margin-right: 170px;
+    margin-left: 180px;
+    margin-right: 200px;
     padding-bottom: 10px;
     padding-top: 5px;
     line-height: 20px;
@@ -582,25 +594,68 @@ footer > div {
     color: #001f3d;
     text-align: center;
     margin-bottom: 10px;
-    line-height: 12px;
-    margin-left: 100px;
-    margin-right: 100px;
+    line-height: 14px;
+    margin-left: 180px;
+    margin-right: 240px;
   }
   #section-1 iframe {
     margin-top: 30px;
-    margin-left: 270px;
+    margin-left: 183px;
     margin-bottom: 20px;
     width: 400px;
     height: 212px;
+  }
+}
+@media (min-width: 1200px) {
+  #section-1 {
+    padding-bottom: 30px;
+  }
+  #section-1 h1 {
+    font-family: "Amaranth", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    background-color: #001f3d;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #section-1 p {
+    font-family: "Titillum Web", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #001f3d;
+    text-align: left;
+    margin-left: 250px;
+    margin-right: 390px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    line-height: 24px;
+  }
+  #section-1 h2 {
+    font-family: "Francois One", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #001f3d;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 20px;
+    margin-left: 240px;
+    margin-right: 390px;
+  }
+  #section-1 iframe {
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 318px;
   }
 }
 
 /* =============
     section-2
 ============= */
-#section-2 {
-  margin-bottom: 5px;
-}
 #section-2 h1 {
   font-family: "Amaranth", Helvetica, sans-serif;
   font-weight: bold;
@@ -610,61 +665,6 @@ footer > div {
   background-color: #001f3d;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-bottom: 5px;
-}
-#section-2 div {
-  background-color: #001f3d;
-}
-#section-2 div h2 {
-  font-family: "Amaranth", Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-  color: #fff;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 25px;
-}
-#section-2 div h4 {
-  font-family: "Amaranth", Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 9px;
-  color: #001f3d;
-  text-align: left;
-  background-color: white;
-  margin-left: 170px;
-  margin-right: 170px;
-  margin-top: 10px;
-}
-#section-2 div h3 {
-  font-family: "Amaranth", Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 9px;
-  color: #f9d801;
-  text-align: left;
-  border-bottom: 1px solid white;
-  margin-left: 170px;
-  margin-right: 180px;
-  padding-top: 15px;
-}
-#section-2 div p {
-  font-family: "Titillium Web", Arial, sans-serif;
-  font-weight: bold;
-  font-size: 6px;
-  color: #90b1c6;
-  text-align: left;
-  margin-left: 180px;
-  margin-right: 180px;
-  margin-top: 3px;
-}
-#section-2 div #last {
-  font-family: "Titillium Web", Arial, sans-serif;
-  font-weight: bold;
-  font-size: 6px;
-  color: #90b1c6;
-  text-align: left;
-  margin-left: 180px;
-  margin-right: 180px;
-  margin-top: 3px;
   margin-bottom: 5px;
 }
 

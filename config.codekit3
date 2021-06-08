@@ -42,6 +42,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/section-2\/Timeline.jpg" : {
+      "ft" : 16384,
+      "iS" : 153833,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-2\/Timeline.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/section-3\/section-3.jpg" : {
       "ft" : 16384,
       "iS" : 112815,

@@ -24,9 +24,9 @@
         font-size: 8px;
         color: $darkblue;
         text-align: left;
-        margin-left: 120px;
-        margin-right: 120px;
-        padding-bottom: 10px;
+        margin-left: 135px;
+        margin-right: 140px;
+        padding-bottom: 20px;
         padding-top: 5px;
         line-height: 12px;
     }
@@ -39,8 +39,8 @@
         text-align: center;
         margin-bottom: 10px;
         line-height: 12px;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 135px;
+        margin-right: 150px;
     }
 
     iframe {
@@ -49,7 +49,8 @@
     }
 
     @include md {
-        background-size: 565px 1079px; 
+       
+        padding-bottom: 30px;
 
         h1 {
             font-family: "Amaranth", Helvetica, sans-serif;
@@ -69,8 +70,8 @@
             font-size: 12.75px;
             color: $darkblue;
             text-align: left;
-            margin-left: 170px;
-            margin-right: 170px;
+            margin-left: 180px;
+            margin-right: 200px;
             padding-bottom: 10px;
             padding-top: 5px;
             line-height: 20px;
@@ -83,17 +84,67 @@
             color: $darkblue;
             text-align: center;
             margin-bottom: 10px;
-            line-height: 12px;
-            margin-left: 100px;
-            margin-right: 100px;
+            line-height: 14px;
+            margin-left: 180px;
+            margin-right: 240px;
         }
     
         iframe {
             margin-top: 30px;
-            margin-left: 270px;
+            margin-left: 183px;
             margin-bottom: 20px;
             width: 400px;
             height: 212px;
+        }
+    }
+
+    @include xl {
+
+        padding-bottom: 30px;
+
+        h1 {
+            font-family: "Amaranth", Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 28px;
+            color: $white;
+            text-align: center;
+            background-color: $darkblue;
+            margin-bottom: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    
+        p {
+            font-family: "Titillum Web", Arial, sans-serif;
+            font-weight: bold;
+            font-size: 17px;
+            color: $darkblue;
+            text-align: left;
+            margin-left: 250px;
+            margin-right: 390px;
+            padding-bottom: 10px;
+            padding-top: 5px;
+            line-height: 24px;
+        }
+    
+        h2 {
+            font-family: "Francois One", Helvetica, sans-serif;
+            font-weight: normal;
+            font-size: 20px;
+            color: $darkblue;
+            text-align: center;
+            margin-bottom: 10px;
+            line-height: 20px;
+            margin-left: 240px;
+            margin-right: 390px;
+        }
+    
+        iframe {
+            margin-top: 30px;
+            margin-left: 250px;
+            margin-bottom: 20px;
+            width: 600px;
+            height: 318px;
         }
     }
 
