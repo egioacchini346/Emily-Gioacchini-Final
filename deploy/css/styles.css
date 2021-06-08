@@ -548,6 +548,52 @@ footer > div {
   margin-left: 135px;
   margin-bottom: 10px;
 }
+@media (min-width: 768px) {
+  #section-1 {
+    background-size: 565px 1079px;
+  }
+  #section-1 h1 {
+    font-family: "Amaranth", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    background-color: #001f3d;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #section-1 p {
+    font-family: "Titillum Web", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12.75px;
+    color: #001f3d;
+    text-align: left;
+    margin-left: 170px;
+    margin-right: 170px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    line-height: 20px;
+  }
+  #section-1 h2 {
+    font-family: "Francois One", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #001f3d;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 12px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #section-1 iframe {
+    margin-top: 30px;
+    margin-left: 270px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 212px;
+  }
+}
 
 /* =============
     section-2
@@ -1209,13 +1255,13 @@ footer > div {
   margin-top: 20px;
   padding-bottom: 30px;
 }
-#section-7 img {
-  display: block;
+#section-7 #s7 {
+  display: grid;
   margin-left: auto;
+  width: 50%;
   margin-right: auto;
-  width: 40%;
   margin-bottom: 20px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 @media (min-width: 768px) {
   #section-7 {
@@ -1224,7 +1270,7 @@ footer > div {
   #section-7 h1 {
     font-family: "Amaranth", Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 24px;
     color: #fff;
     text-align: center;
     background-color: #001f3d;
@@ -1236,21 +1282,22 @@ footer > div {
     font-family: "Titillium Web", Arial, sans-serif;
     background-color: #d2e9ff;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 18px;
     color: #001f3d;
-    margin-left: 400px;
-    margin-right: 395px;
+    margin-left: 120px;
+    margin-right: 120px;
     text-align: left;
     margin-top: 20px;
     padding-bottom: 30px;
+    line-height: 22px;
   }
-  #section-7 img {
-    display: block;
+  #section-7 #s7 {
+    display: grid;
     margin-left: auto;
+    width: 50%;
     margin-right: auto;
-    width: 60%;
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
 }
 @media (min-width: 1200px) {
