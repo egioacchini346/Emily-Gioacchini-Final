@@ -5,6 +5,26 @@
 #section-4 {
     text-align: center;
 
+    h2 {
+        font-family: "Amaranth", Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 27px;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-right: 150px;
+    }
+
+    p {
+        font-family: "Titillium Web", Arial, sans-serif;
+        font-weight: thin;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-right: 150px;
+    }
+
     h1 {
         text-align: center;
         background-color: $darkblue;
@@ -13,7 +33,7 @@
     }
 
        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-         <div class="carousel-inner">
+         <div class="carousel-inner" style="color: $darkblue;">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="..." alt="First slide">
                 </div>

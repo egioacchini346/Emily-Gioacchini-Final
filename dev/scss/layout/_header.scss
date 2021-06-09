@@ -2,12 +2,10 @@
     Header
 ============= */
 header {
-	
-	background: url("../img/header/headerBackground.png") !important;
+	background: url("../img/header/header.png") !important;
 	display: grid;
-	background-size:auto;
-
-
+	background-size: auto;
+	margin-right: 600px;
 
 	@include xl {
 		grid-template-areas: ". header .";
@@ -35,4 +33,5 @@ header {
 			}
 		}
 	}
+
 }

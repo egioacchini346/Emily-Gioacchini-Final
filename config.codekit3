@@ -29,11 +29,11 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/header\/headerBackground.png" : {
+    "\/deploy\/img\/header\/header.png" : {
       "ft" : 32768,
-      "iS" : 3765966,
+      "iS" : 1780993,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/header\/headerBackground.png",
+      "oAP" : "\/deploy\/img\/header\/header.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -77,6 +77,58 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/section-3\/Carousel1.png" : {
+      "ft" : 32768,
+      "iS" : 4694,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-3\/Carousel1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/section-3\/Carousel2.png" : {
+      "ft" : 32768,
+      "iS" : 4126,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-3\/Carousel2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/section-3\/Carousel3.png" : {
+      "ft" : 32768,
+      "iS" : 3087,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-3\/Carousel3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/section-3\/Carousel4.png" : {
+      "ft" : 32768,
+      "iS" : 3922,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-3\/Carousel4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
