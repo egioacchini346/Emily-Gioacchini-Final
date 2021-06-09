@@ -566,15 +566,11 @@ footer > div {
     padding-bottom: 30px;
   }
   #section-1 h1 {
-    font-family: "Amaranth", Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    color: #fff;
     text-align: center;
     background-color: #001f3d;
-    margin-bottom: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 15px;
   }
   #section-1 p {
     font-family: "Titillum Web", Arial, sans-serif;
@@ -594,7 +590,8 @@ footer > div {
     font-size: 15px;
     color: #001f3d;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    margin-top: 12px;
     line-height: 14px;
     margin-left: 180px;
     margin-right: 240px;
@@ -612,15 +609,11 @@ footer > div {
     padding-bottom: 30px;
   }
   #section-1 h1 {
-    font-family: "Amaranth", Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 28px;
-    color: #fff;
     text-align: center;
     background-color: #001f3d;
-    margin-bottom: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 15px;
   }
   #section-1 p {
     font-family: "Titillum Web", Arial, sans-serif;
@@ -640,7 +633,8 @@ footer > div {
     font-size: 20px;
     color: #001f3d;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
     line-height: 20px;
     margin-left: 240px;
     margin-right: 390px;
@@ -662,6 +656,7 @@ footer > div {
   background-color: #001f3d;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 /* =============
@@ -699,6 +694,7 @@ footer > div {
   background-color: #001f3d;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-top: 10px;
 }
 #section-3 #Petieb {
   display: block;
@@ -746,6 +742,7 @@ footer > div {
   background-color: #001f3d;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-bottom: 60px;
 }
 #section-4 div h2 {
   font-family: "Amaranth", Helvetica, sans-serif;
@@ -788,9 +785,6 @@ footer > div {
   margin-bottom: 16px;
 }
 @media (min-width: 768px) {
-  #section-4 {
-    grid-template-areas: ". section-5 .";
-  }
   #section-4 h2 {
     font-family: "Amaranth", Helvetica, sans-serif;
     font-weight: bold;
@@ -811,9 +805,6 @@ footer > div {
   }
 }
 @media (min-width: 1200px) {
-  #section-4 {
-    grid-template-columns: auto 1200px auto;
-  }
   #section-4 h2 {
     font-family: "Amaranth", Helvetica, sans-serif;
     font-weight: bold;
@@ -835,7 +826,7 @@ footer > div {
 }
 @media (min-width: 768px) {
   #section-4 > div {
-    grid-template-areas: ". section-5 .";
+    grid-template-areas: ". section-4 .";
   }
 }
 @media (min-width: 768px) {
@@ -856,11 +847,13 @@ footer > div {
 @media (min-width: 768px) {
   #section-4 > div ul #s4 {
     grid-area: s4;
+    visibility: hidden;
   }
 }
 @media (min-width: 768px) {
   #section-4 > div ul #s5 {
     grid-area: s5;
+    visibility: hidden;
   }
 }
 @media (min-width: 768px) {

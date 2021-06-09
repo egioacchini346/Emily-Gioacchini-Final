@@ -1,22 +1,19 @@
 /* =============
     section-4
 ============= */
+
 #section-4 {
-
     text-align: center;
-
 
     h1 {
         text-align: center;
         background-color: $darkblue;
         padding-top: 10px;
         padding-bottom: 10px;
+        margin-bottom: 60px;
     }
-
-    div {
-
     
-
+    div {
         h2 {
             font-family: "Amaranth", Helvetica, sans-serif;
             font-weight: bold;
@@ -25,7 +22,7 @@
             text-align: center;
             margin-top: 15px;
         }
-
+    
         p {
             font-family: "Titillium Web", Arial, sans-serif;
             font-weight: thin;
@@ -38,7 +35,7 @@
             margin-right: 140px;
             line-height: 24px;
         }
-
+    
         button {
             display: inline-block;
             width: 25%;
@@ -52,23 +49,22 @@
             color: $darkblue;
             text-align: center;
         }
-
+    
         img{
             width:100%;
             height: 300px;
         }
     }
-
-
+    
+    
     ul {
         li {
             margin-bottom: 16px;
         }
     }
-
+    
     @include md {
-        grid-template-areas: ". section-5 .";
-
+    
         h2 {
             font-family: "Amaranth", Helvetica, sans-serif;
             font-weight: bold;
@@ -78,7 +74,7 @@
             margin-bottom: 20px;
             margin-right: 150px;
         }
-
+    
         p {
             font-family: "Titillium Web", Arial, sans-serif;
             font-weight: thin;
@@ -88,12 +84,11 @@
             margin-bottom: 15px;
             margin-right: 150px;
         }
-
+    
     }
-
+    
     @include xl {
-        grid-template-columns: auto 1200px auto;
-
+    
         h2 {
             font-family: "Amaranth", Helvetica, sans-serif;
             font-weight: bold;
@@ -103,7 +98,7 @@
             margin-bottom: 20px;
             margin-right: 150px;
         }
-
+    
         p {
             font-family: "Titillium Web", Arial, sans-serif;
             font-weight: thin;
@@ -113,49 +108,51 @@
             margin-bottom: 15px;
             margin-right: 150px;
         }
-
+    
     }
-
+    
     >div {
-
+    
         @include md {
-            grid-template-areas: ". section-5 .";
+            grid-template-areas: ". section-4 .";
         }
-
+    
         ul {
-
+    
             #s1 {
                 @include md {
                     grid-area: s1;
-
+    
                 }
             }
-
+    
             #s2 {
                 @include md {
                     grid-area: s2;
                 }
             }
-
+    
             #s3 {
                 @include md {
                     grid-area: s3;
                 }
             }
-
+    
             #s4 {
                 @include md {
                     grid-area: s4;
+                    visibility: hidden;
                 }
             }
-
+    
             #s5 {
                 @include md {
                     grid-area: s5;
+                    visibility: hidden;
                 }
             }
-
-
+    
+    
             @include md {
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
@@ -163,28 +160,28 @@
                     ". s1 s2 s3 .";
                 gap: 16px;
             }
-
+    
             @include lg {
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-areas:
                     "s1 s1 s2 s2 s3 s3";
             }
-
+    
             li {
                 background-color: $darkblue;
-
+    
                 img {
                     width: 100%;
                 }
-
+    
                 section {
                     display: grid;
                     grid-template-columns: auto;
                     grid-template-areas: ". section-4-content .";
-
+    
                     >div {
                         grid-area: section-4-content;
-
+    
                         button {
                             background-color: #fff;
                         }
@@ -193,4 +190,5 @@
             }
         }
     }
-}
+    
+}   
