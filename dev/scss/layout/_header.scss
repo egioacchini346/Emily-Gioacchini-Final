@@ -2,7 +2,10 @@
     Header
 ============= */
 header {
+	
+	background: url("../img/header/headerBackground.png") !important;
 	display: grid;
+
 
 
 	@include xl {
