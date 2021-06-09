@@ -859,15 +859,15 @@ footer > div {
 @media (min-width: 768px) {
   #section-4 > div ul {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: ". s1 s2 s3 .";
+    grid-template-columns: repeat(1fr, 1fr, 1fr);
+    grid-template-areas: "s1 s2 s3";
     gap: 16px;
   }
 }
 @media (min-width: 1024px) {
   #section-4 > div ul {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "s1 s1 s2 s2 s3 s3";
+    grid-template-columns: repeat(1fr, 1fr, 1fr);
+    grid-template-areas: "s1 s2 s3";
   }
 }
 #section-4 > div ul li {
@@ -1732,4 +1732,37 @@ footer > div {
     margin-bottom: 20px;
     margin-top: 30px;
   }
+}
+
+/* =============
+    section-8
+============= */
+#section-8 {
+  /* external css: flickity.css */
+  /* cell number */
+}
+#section-8 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#section-8 body {
+  font-family: sans-serif;
+}
+#section-8 .gallery {
+  background: #EEE;
+}
+#section-8 .gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #001f3d;
+  counter-increment: gallery-cell;
+}
+#section-8 .gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
 }
