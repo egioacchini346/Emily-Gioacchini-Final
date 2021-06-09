@@ -6,21 +6,18 @@
     text-align: center;
 
     h1 {
-        font-family: "Amaranth", Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: 13px;
-        color: $white;
         text-align: center;
         background-color: $darkblue;
-        margin-bottom: 20px;
         padding-top: 10px;
         padding-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     p {
         font-family: "Titillium Web", Arial, sans-serif;
         font-weight: bold;
         font-size: 10px;
+        line-height: 13px;
         color: $darkblue;
         text-align: left;
         margin-left: 70px;
@@ -63,6 +60,7 @@
         font-family: "Titillium Web", Arial, sans-serif;
         font-weight: bold;
         font-size: 11px;
+        line-height: 12px;
         color: $white;
         text-align: left;
         margin-left: 115px;
@@ -79,8 +77,8 @@
         color: $darkblue;
         margin-top: 10px;
         margin-bottom: 15px;
-        margin-left: 48px;
-        margin-right: 4px;
+        margin-left: 20px;
+        margin-right: 10px;
         padding-left: 12px;
         padding-right: 12px;
         border-radius: 6px;
@@ -96,11 +94,12 @@
         color: $darkblue;
         margin-top: 10px;
         margin-bottom: 30px;
-        padding-left: 120px;
-        padding-right: 120px;
+        padding-left: 115px;
+        padding-right: 115px;
         border-radius: 4px;
         padding-top: 5px;
         padding-bottom: 5px;
+        margin-right: 21px;
     }
 
     #form {
@@ -132,5 +131,291 @@
         padding: 10px;
         width: 253px;
         height: 106px;
+    }
+
+    @include md {
+
+        div {
+
+            border: solid;
+            border-color: #fff;
+            border-left-width: 80px;
+            border-right-width: 80px;
+            border-bottom-width: 40px;
+
+            h1 {
+                text-align: center;
+                background-color: $darkblue;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-bottom: 40px;
+            }
+
+            p {
+                font-family: "Titillium Web", Arial, sans-serif;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 18px;
+                color: $darkblue;
+                text-align: left;
+                margin-left: 80px;
+                margin-right: 80px;
+                margin-bottom: 10px;
+            }
+
+            h2 {
+                font-family: "Amaranth", Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 24px;
+                color: $yellow;
+                margin-top: 20px;
+                padding-top: 15px;
+                padding-bottom: 10px;
+            }
+
+            h4 {
+                font-family: "Titillium Web", Arial, sans-serif;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 17px;
+                color: $white;
+                text-align: left;
+                margin-left: 160px;
+                margin-right: 170px;
+                margin-top: 10px;
+            }
+
+            h5 {
+                font-family: "Titillium Web", Arial, sans-serif;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 17px;
+                color: $white;
+                text-align: left;
+                margin-left: 160px;
+                margin-right: 170px;
+                margin-bottom: 5px;
+                margin-top: 5px;
+            }
+
+            h6 {
+                font-family: "Titillium Web", Arial, sans-serif;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 17px;
+                color: $white;
+                text-align: left;
+                margin-left: 160px;
+                margin-right: 170px;
+                margin-top: 10px;
+                margin-bottom: 5px;
+            }
+
+            button {
+                background-color: $yellow;
+                font-family: "Amaranth", Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 16px;
+                color: $darkblue;
+                margin-top: 10px;
+                margin-bottom: 15px;
+                margin-left: 20px;
+                margin-right: 10px;
+                padding-left: 12px;
+                padding-right: 12px;
+                border-radius: 6px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+
+            #submit {
+                background-color: $yellow;
+                font-family: "Amaranth", Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 16px;
+                color: $darkblue;
+                margin-top: 10px;
+                margin-bottom: 30px;
+                padding-left: 145px;
+                padding-right: 145px;
+                border-radius: 4px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                margin-right: 17px;
+            }
+
+            #form {
+                background-color: $darkblue;
+                margin: none;
+            }
+
+            input {
+                border-radius: 8px;
+                background: #fff;
+                padding: 10px;
+                width: 324.3px;
+                height: 20px;
+            }
+
+            #ip1 {
+                border-radius: 8px;
+                background: #fff;
+                padding: 10px;
+                width: 324.3px;
+                height: 123.47px;
+            }
+
+            #ip2 {
+                border-radius: 8px;
+                background: #fff;
+                padding: 10px;
+                width: 324.3px;
+                height: 123.47px;
+            }
+        }
+
+        @include xl {
+
+            div {
+
+                border: solid;
+                border-color: #fff;
+                border-left-width: 100px;
+                border-right-width: 100px;
+                border-bottom-width: 60px;
+
+                h1 {
+                    text-align: center;
+                    background-color: $darkblue;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    margin-bottom: 40px;
+                }
+
+                p {
+                    font-family: "Titillium Web", Arial, sans-serif;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: $darkblue;
+                    text-align: left;
+                    margin-left: 80px;
+                    margin-right: 80px;
+                    margin-bottom: 10px;
+                }
+
+                h2 {
+                    font-family: "Amaranth", Helvetica, sans-serif;
+                    font-weight: bold;
+                    font-size: 28px;
+                    color: $yellow;
+                    margin-top: 20px;
+                    padding-top: 15px;
+                    padding-bottom: 10px;
+                }
+
+                h4 {
+                    font-family: "Titillium Web", Arial, sans-serif;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: $white;
+                    text-align: left;
+                    margin-left: 440px;
+                    margin-right: 420px;
+                    margin-top: 10px;
+                }
+
+                h5 {
+                    font-family: "Titillium Web", Arial, sans-serif;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 18px;
+                    color: $white;
+                    text-align: left;
+                    margin-left: 440px;
+                    margin-right: 420px;
+                    margin-bottom: 5px;
+                    margin-top: 5px;
+                }
+
+                h6 {
+                    font-family: "Titillium Web", Arial, sans-serif;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: $white;
+                    text-align: left;
+                    margin-left: 440px;
+                    margin-right: 420px;
+                    margin-top: 10px;
+                    margin-bottom: 5px;
+                }
+
+                button {
+                    background-color: $yellow;
+                    font-family: "Amaranth", Helvetica, sans-serif;
+                    font-weight: bold;
+                    font-size: 18px;
+                    color: $darkblue;
+                    margin-top: 10px;
+                    margin-bottom: 15px;
+                    margin-left: 20px;
+                    margin-right: 10px;
+                    padding-left: 12px;
+                    padding-right: 12px;
+                    border-radius: 6px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+
+                #submit {
+                    background-color: $yellow;
+                    font-family: "Amaranth", Helvetica, sans-serif;
+                    font-weight: bold;
+                    font-size: 20px;
+                    color: $darkblue;
+                    margin-top: 10px;
+                    margin-bottom: 30px;
+                    padding-left: 110px;
+                    padding-right: 115px;
+                    border-radius: 4px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    margin-right: 17px;
+                }
+
+                #form {
+                    background-color: $darkblue;
+                    margin: none;
+                }
+
+                input {
+                    border-radius: 8px;
+                    background: #fff;
+                    padding: 10px;
+                    width: 253px;
+                    height: 10px;
+                }
+
+                #ip1 {
+                    border-radius: 8px;
+                    background: #fff;
+                    padding: 10px;
+                    width: 253px;
+                    height: 106px;
+                }
+
+                #ip2 {
+                    border-radius: 8px;
+                    background: #fff;
+                    padding: 10px;
+                    width: 253px;
+                    height: 106px;
+                }
+            }
+        }
+
+
     }
 }

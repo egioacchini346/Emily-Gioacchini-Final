@@ -429,6 +429,7 @@ a {
 header {
   background: url("../img/header/headerBackground.png") !important;
   display: grid;
+  background-size: auto;
 }
 @media (min-width: 1200px) {
   header {
@@ -487,21 +488,36 @@ footer a {
   }
 }
 footer > div {
-  gap: 3px;
+  gap: 15px;
 }
 @media (min-width: 768px) {
-  footer > div {
-    grid-template-areas: ". footer .";
+  footer > div a {
+    font-family: "Titillium Web", Arial, sans-serif;
+    font-style: bold;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
   }
 }
 @media (min-width: 1024px) {
-  footer > div {
-    grid-template-areas: ". footer .";
+  footer > div a {
+    font-family: "Titillium Web", Arial, sans-serif;
+    font-style: bold;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
   }
 }
 @media (min-width: 1200px) {
   footer > div {
     grid-area: footer;
+  }
+  footer > div a {
+    font-family: "Titillium Web", Arial, sans-serif;
+    font-style: bold;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
   }
 }
 
@@ -512,15 +528,11 @@ footer > div {
   background-color: #d2e9ff;
 }
 #section-1 h1 {
-  font-family: "Amaranth", Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  color: #fff;
   text-align: center;
   background-color: #001f3d;
-  margin-bottom: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-bottom: 15px;
 }
 #section-1 p {
   font-family: "Titillum Web", Arial, sans-serif;
@@ -646,15 +658,10 @@ footer > div {
     section-2
 ============= */
 #section-2 h1 {
-  font-family: "Amaranth", Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  color: #fff;
   text-align: center;
   background-color: #001f3d;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-bottom: 5px;
 }
 
 /* =============
@@ -688,10 +695,6 @@ footer > div {
   margin-top: 5px;
 }
 #section-3 h1 {
-  font-family: "Amaranth", Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  color: #fff;
   text-align: center;
   background-color: #001f3d;
   padding-top: 10px;
@@ -722,7 +725,7 @@ footer > div {
   margin-right: 120px;
   line-height: 18px;
 }
-#section-3 img {
+#section-3 #img2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -739,15 +742,10 @@ footer > div {
   text-align: center;
 }
 #section-4 h1 {
-  font-family: "Amaranth", Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  color: #fff;
   text-align: center;
   background-color: #001f3d;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-bottom: 40px;
 }
 #section-4 div h2 {
   font-family: "Amaranth", Helvetica, sans-serif;
@@ -904,10 +902,6 @@ footer > div {
   padding-bottom: 30px;
 }
 #section-5 h1 {
-  font-family: "Amaranth", Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  color: #fff;
   text-align: center;
   background-color: #001f3d;
   padding-top: 10px;
@@ -1104,20 +1098,17 @@ footer > div {
   text-align: center;
 }
 #section-6 h1 {
-  font-family: "Amaranth", Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  color: #fff;
   text-align: center;
   background-color: #001f3d;
-  margin-bottom: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 #section-6 p {
   font-family: "Titillium Web", Arial, sans-serif;
   font-weight: bold;
   font-size: 10px;
+  line-height: 13px;
   color: #001f3d;
   text-align: left;
   margin-left: 70px;
@@ -1156,6 +1147,7 @@ footer > div {
   font-family: "Titillium Web", Arial, sans-serif;
   font-weight: bold;
   font-size: 11px;
+  line-height: 12px;
   color: #fff;
   text-align: left;
   margin-left: 115px;
@@ -1171,8 +1163,8 @@ footer > div {
   color: #001f3d;
   margin-top: 10px;
   margin-bottom: 15px;
-  margin-left: 48px;
-  margin-right: 4px;
+  margin-left: 20px;
+  margin-right: 10px;
   padding-left: 12px;
   padding-right: 12px;
   border-radius: 6px;
@@ -1187,11 +1179,12 @@ footer > div {
   color: #001f3d;
   margin-top: 10px;
   margin-bottom: 30px;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 115px;
+  padding-right: 115px;
   border-radius: 4px;
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-right: 21px;
 }
 #section-6 #form {
   background-color: #001f3d;
@@ -1218,6 +1211,260 @@ footer > div {
   width: 253px;
   height: 106px;
 }
+@media (min-width: 768px) {
+  #section-6 div {
+    border: solid;
+    border-color: #fff;
+    border-left-width: 80px;
+    border-right-width: 80px;
+    border-bottom-width: 40px;
+  }
+  #section-6 div h1 {
+    text-align: center;
+    background-color: #001f3d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+  }
+  #section-6 div p {
+    font-family: "Titillium Web", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #001f3d;
+    text-align: left;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+  }
+  #section-6 div h2 {
+    font-family: "Amaranth", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9d801;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  #section-6 div h4 {
+    font-family: "Titillium Web", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    text-align: left;
+    margin-left: 160px;
+    margin-right: 170px;
+    margin-top: 10px;
+  }
+  #section-6 div h5 {
+    font-family: "Titillium Web", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 17px;
+    color: #fff;
+    text-align: left;
+    margin-left: 160px;
+    margin-right: 170px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  #section-6 div h6 {
+    font-family: "Titillium Web", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    text-align: left;
+    margin-left: 160px;
+    margin-right: 170px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  #section-6 div button {
+    background-color: #f9d801;
+    font-family: "Amaranth", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #001f3d;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #section-6 div #submit {
+    background-color: #f9d801;
+    font-family: "Amaranth", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #001f3d;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 145px;
+    padding-right: 145px;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 17px;
+  }
+  #section-6 div #form {
+    background-color: #001f3d;
+    margin: none;
+  }
+  #section-6 div input {
+    border-radius: 8px;
+    background: #fff;
+    padding: 10px;
+    width: 324.3px;
+    height: 20px;
+  }
+  #section-6 div #ip1 {
+    border-radius: 8px;
+    background: #fff;
+    padding: 10px;
+    width: 324.3px;
+    height: 123.47px;
+  }
+  #section-6 div #ip2 {
+    border-radius: 8px;
+    background: #fff;
+    padding: 10px;
+    width: 324.3px;
+    height: 123.47px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  #section-6 div {
+    border: solid;
+    border-color: #fff;
+    border-left-width: 100px;
+    border-right-width: 100px;
+    border-bottom-width: 60px;
+  }
+  #section-6 div h1 {
+    text-align: center;
+    background-color: #001f3d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+  }
+  #section-6 div p {
+    font-family: "Titillium Web", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #001f3d;
+    text-align: left;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+  }
+  #section-6 div h2 {
+    font-family: "Amaranth", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #f9d801;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  #section-6 div h4 {
+    font-family: "Titillium Web", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    text-align: left;
+    margin-left: 440px;
+    margin-right: 420px;
+    margin-top: 10px;
+  }
+  #section-6 div h5 {
+    font-family: "Titillium Web", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    text-align: left;
+    margin-left: 440px;
+    margin-right: 420px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  #section-6 div h6 {
+    font-family: "Titillium Web", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    text-align: left;
+    margin-left: 440px;
+    margin-right: 420px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  #section-6 div button {
+    background-color: #f9d801;
+    font-family: "Amaranth", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #001f3d;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #section-6 div #submit {
+    background-color: #f9d801;
+    font-family: "Amaranth", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #001f3d;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 110px;
+    padding-right: 115px;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 17px;
+  }
+  #section-6 div #form {
+    background-color: #001f3d;
+    margin: none;
+  }
+  #section-6 div input {
+    border-radius: 8px;
+    background: #fff;
+    padding: 10px;
+    width: 253px;
+    height: 10px;
+  }
+  #section-6 div #ip1 {
+    border-radius: 8px;
+    background: #fff;
+    padding: 10px;
+    width: 253px;
+    height: 106px;
+  }
+  #section-6 div #ip2 {
+    border-radius: 8px;
+    background: #fff;
+    padding: 10px;
+    width: 253px;
+    height: 106px;
+  }
+}
 
 /* =============
     section-7
@@ -1226,15 +1473,10 @@ footer > div {
   background-color: #d2e9ff;
 }
 #section-7 h1 {
-  font-family: "Amaranth", Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 13px;
-  color: #fff;
   text-align: center;
   background-color: #001f3d;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-bottom: 35px;
 }
 #section-7 p {
   font-family: "Titillium Web", Arial, sans-serif;
@@ -1258,7 +1500,7 @@ footer > div {
 }
 @media (min-width: 768px) {
   #section-7 {
-    grid-template-areas: ". section-7 .";
+    display: block;
   }
   #section-7 h1 {
     font-family: "Amaranth", Helvetica, sans-serif;
@@ -1285,9 +1527,9 @@ footer > div {
     line-height: 22px;
   }
   #section-7 #s7 {
-    display: grid;
+    max-width: 100%;
+    height: auto;
     margin-left: auto;
-    width: 50%;
     margin-right: auto;
     margin-bottom: 20px;
     margin-top: 30px;
@@ -1295,6 +1537,27 @@ footer > div {
 }
 @media (min-width: 1200px) {
   #section-7 {
-    grid-template-columns: ". section-7 .";
+    display: block;
+  }
+  #section-7 p {
+    font-family: "Titillium Web", Arial, sans-serif;
+    background-color: #d2e9ff;
+    font-weight: bold;
+    font-size: 18px;
+    color: #001f3d;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: left;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    line-height: 24px;
+  }
+  #section-7 #s7 {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
   }
 }

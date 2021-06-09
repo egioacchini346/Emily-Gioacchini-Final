@@ -7,6 +7,8 @@ footer {
 	padding-bottom: 20px;
 	text-align: center;
 
+
+
 	#flex {
 		display: flex;
 		flex-direction: row;
@@ -14,6 +16,8 @@ footer {
 		gap: 10px;
 		margin-bottom: 8px;
 	}
+
+	
 
 	a {
 		font-family: "Titillium Web", Arial, sans-serif;
@@ -28,18 +32,37 @@ footer {
 	}
 
 	>div {
-		gap: 3px;
+		gap: 15px;
 
 		@include md {
-			grid-template-areas: ". footer .";
+			a {
+				font-family: "Titillium Web", Arial, sans-serif;
+				font-style: bold;
+				font-size: 12px;
+				color: $white;
+				text-align: center;
+			}
 		}
 
 		@include lg {
-			grid-template-areas: ". footer .";
+			a {
+				font-family: "Titillium Web", Arial, sans-serif;
+				font-style: bold;
+				font-size: 14px;
+				color: $white;
+				text-align: center;
+			}
 		}
 
 		@include xl {
 			grid-area: footer;
+			a {
+				font-family: "Titillium Web", Arial, sans-serif;
+				font-style: bold;
+				font-size: 14px;
+				color: $white;
+				text-align: center;
+			}
 		}
 	}
 }
