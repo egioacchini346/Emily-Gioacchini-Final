@@ -42,6 +42,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/section-1\/section1.png" : {
+      "ft" : 32768,
+      "iS" : 31925,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-1\/section1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/section-2\/section2.png" : {
+      "ft" : 32768,
+      "iS" : 29003,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-2\/section2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/section-2\/Timeline.jpg" : {
       "ft" : 16384,
       "iS" : 153833,
@@ -64,6 +90,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/section-3\/section3.png" : {
+      "ft" : 32768,
+      "iS" : 32773,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-3\/section3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -107,6 +146,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/section-4\/section4.png" : {
+      "ft" : 32768,
+      "iS" : 59232,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-4\/section4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/section-4\/Sydney Theatre Image.jpg" : {
       "ft" : 16384,
       "iS" : 13130,
@@ -133,6 +185,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/section-5\/section5.png" : {
+      "ft" : 32768,
+      "iS" : 58408,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-5\/section5.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/section-6\/section6.png" : {
+      "ft" : 32768,
+      "iS" : 57889,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-6\/section6.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/section-7\/Pin the Map.jpg" : {
       "ft" : 16384,
       "iS" : 157792,
@@ -142,6 +220,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/section-7\/section7.png" : {
+      "ft" : 32768,
+      "iS" : 60181,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-7\/section7.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
